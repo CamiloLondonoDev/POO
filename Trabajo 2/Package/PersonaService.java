@@ -11,7 +11,7 @@ public class PersonaService {
 
     public void capturarPersonas() {
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 5; i++) {
             System.out.println("\nPersona #" + (i + 1));
             System.out.print("Nombre: ");
             String nombre = scanner.nextLine();
