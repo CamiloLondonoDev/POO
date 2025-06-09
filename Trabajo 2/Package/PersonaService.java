@@ -11,7 +11,6 @@ public class PersonaService {
 
     public void capturarPersonas() {
 
-        //TODO: Cambiar luego a  una lista dinamica 
         for (int i = 0; i < 2; i++) {
             System.out.println("\nPersona #" + (i + 1));
             System.out.print("Nombre: ");
@@ -39,7 +38,6 @@ public class PersonaService {
 
     public void mostrarNombreYGenero() {
         for (Persona p : personas) {
-            // TODO: Crear validacion de si esta vacio envia mensaje y cambiar a que se itere for (persona p : personas) {SOUT(p)}
             if (p != null) {
                 System.out.println("Nombre: " + p.getNombre() + ", Género: " + p.getGenero());
             }
